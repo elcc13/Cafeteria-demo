@@ -1,0 +1,21 @@
+.card img {
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+}
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+}
+
+.card.bg-secondary {
+    background-color: #2e2e2e !important;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+}
